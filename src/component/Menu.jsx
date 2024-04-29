@@ -12,7 +12,7 @@ const Menu = () => {
   console.log(total);
   return (
     <>
-      <nav className="navbar navbar-dark bg-light">
+      <nav className="navbar navbar-dark bg-primary">
         <div className="container-fluid">
           <Link to="/">
             <h4>Salvatore´s Pizza</h4>

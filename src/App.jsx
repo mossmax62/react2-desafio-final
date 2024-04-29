@@ -3,6 +3,7 @@ import Home from "./views/Home.jsx"
 import Detalle from "./views/Detalle.jsx"
 import Menu from './component/Menu.jsx'
 import Pedido from './views/Pedido.jsx'
+import './App.css'
 
 function App() {
 

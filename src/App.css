@@ -4,7 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
-
+nav h4{
+  color: aliceblue;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -12,7 +14,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ffff);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
