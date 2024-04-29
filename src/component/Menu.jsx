@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { PizzaContext } from "../context/PizzaProvider";
 import { useContext } from "react";
+import './Menu.css'
 
 const Menu = () => {
   const { carrito } = useContext(PizzaContext);
@@ -22,8 +23,8 @@ const Menu = () => {
           </Link>
         </div>
       </nav>
-      <div className="container">
-        <img src="src/assets/banner.jpeg" width="100%" height="50%" alt="" />
+      <div className="container banner">
+        <h1>Bienvenid@s a Salvatore's Pizza</h1>
       </div>
     </>
   );
