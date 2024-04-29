@@ -2,7 +2,7 @@
   "name": "Desafio final React 2 - Max Mussuto",
   "homepage": "https://mossmax62.github.io/react2-desafio-final/",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
