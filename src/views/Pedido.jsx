@@ -20,7 +20,7 @@ const Pedido =()=>{
                             <div className="d-flex">
                                 <img src={product.img} alt="" width={50}/>
                                 &nbsp;&nbsp;
-                                <p>{product.name}</p>
+                                <p className="text-capitalize">{product.name}</p>
                             </div>
                             <div className="d-flex justify-content-around">
                                 <p>{product.price}</p>&nbsp;
@@ -38,7 +38,7 @@ const Pedido =()=>{
                 }
 
             </div>
-            <h2>Total: {total}</h2>
+            <h2 className="text-success">Total: {total}</h2>
 
         </div>
         

@@ -16,13 +16,13 @@ const Home = () => {
               <div className="card shadow-lg">
                 <img src={pizza.img} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">{pizza.name}</h5>
+                  <h5 className="card-title text-capitalize">{pizza.name}</h5>
                   <hr/>
                   Ingredientes:
                   <ul>
                   {pizza.ingredients && pizza.ingredients.map((ingredient, index) => {
                     return (
-                      <li key={index}>{ingredient}</li>
+                      <li className="text-capitalize" key={index}>{ingredient}</li>
                     )
                   })}  
                     </ul>
