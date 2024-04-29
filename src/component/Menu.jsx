@@ -30,7 +30,7 @@ const Menu = () => {
         </div>
       </nav>
       <div className="container banner">
-        <h1>Bienvenid@s a Salvatore's Pizza</h1>
+        <h1>Bienvenid@s a Salvatore&apos;s Pizza</h1>
       </div>
     </>
   );

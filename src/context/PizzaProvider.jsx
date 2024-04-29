@@ -4,6 +4,7 @@ import { createContext, useEffect,useState } from "react";
 export const PizzaContext = createContext()
 
 
+// eslint-disable-next-line react/prop-types
 const PizzaProvider = ({ children }) => {
  
     const [pizzas, setPizzas] = useState([])
