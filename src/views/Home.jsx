@@ -17,6 +17,7 @@ const Home = () => {
                 <img src={pizza.img} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">{pizza.name}</h5>
+                  <hr/>
                   Ingredientes:
                   <ul>
                   {pizza.ingredients && pizza.ingredients.map((ingredient, index) => {
@@ -25,11 +26,12 @@ const Home = () => {
                     )
                   })}  
                     </ul>
+                    <hr/>
                   <strong className="card-text">Precio : {pizza.price}</strong>
                   <br/>
                   <a onClick={()=> navigate(`/pizza/${pizza.id}`)} className="btn btn-primary">
                     Ver detalle
-                  </a>
+                  </a>&nbsp;
                   <button className="btn btn-success" onClick={()=>agregarProducto(pizza)}>
                     Agregar
                   </button>

@@ -7,8 +7,8 @@ const Detalle = () => {
   const { pizzas, agregarProducto } = useContext(PizzaContext);
   const [pizzaDetail, setPizzaDetail] = useState({});
 
-  const getData = async () => {
-    const informacion =await pizzas.find((pizza) => pizza.id == id);
+  const getData =  () => {
+    const informacion = pizzas.find((pizza) => pizza.id == id);
     setPizzaDetail(informacion);
   };
 
@@ -17,8 +17,10 @@ const Detalle = () => {
   }, []);
   return (
     <>
+    
       {pizzaDetail && (
-        <div className="container">
+        <div className="container p-3">
+          <h5>Detalle Pizza:</h5>
           <div className="card">
             <div className="row">
                 <div className="col-md-6">

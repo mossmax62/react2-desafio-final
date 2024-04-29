@@ -9,6 +9,11 @@ const Menu = () => {
       acumulador + valorActual.price * valorActual.count,
     0
   );
+  const totalProductos = carrito.reduce(
+    (acumulador, valorActual) =>
+      acumulador + valorActual.count,
+    0
+  );
   console.log(total);
   return (
     <>
@@ -18,7 +23,9 @@ const Menu = () => {
             <h4>Salvatore´s Pizza</h4>
           </Link>
           <Link to="/carrito">
+            <h4>Productos en carrito {totalProductos} </h4>
             <h4>Total: ${total}</h4>
+
           </Link>
         </div>
       </nav>
