@@ -13,7 +13,7 @@ const Home = () => {
         {pizzas &&
           pizzas.map((pizza) => (
             <div key={pizza.id} className="col-md-3 rounded p-3">
-              <div className="card">
+              <div className="card shadow-lg">
                 <img src={pizza.img} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">{pizza.name}</h5>

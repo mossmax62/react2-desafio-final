@@ -16,9 +16,10 @@ const Pedido =()=>{
                 {
                     carrito.map((product,index) =>(
                         <>
-                        <div key={product.id} className="d-flex justify-content-around">
+                        <div key={product.id} className="d-flex justify-content-between px-5">
                             <div className="d-flex">
                                 <img src={product.img} alt="" width={50}/>
+                                &nbsp;&nbsp;
                                 <p>{product.name}</p>
                             </div>
                             <div className="d-flex justify-content-around">
