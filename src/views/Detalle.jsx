@@ -24,7 +24,7 @@ const Detalle = () => {
           <div className="card">
             <div className="row">
                 <div className="col-md-6">
-                    <img src={pizzaDetail.img} alt="" />
+                    <img className="img-fluid" src={pizzaDetail.img} alt="" />
                 </div>
                 <div className="col-md-6">
                 <div className="card-body">
