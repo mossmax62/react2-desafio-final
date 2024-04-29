@@ -3,7 +3,8 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  const { pizzas } = useContext(PizzaContext);
+  const { pizzas, agregarProducto } = useContext(PizzaContext);
+  
   const navigate = useNavigate()
 
   return (
@@ -20,6 +21,9 @@ const Home = () => {
                   <a onClick={()=> navigate(`/pizza/${pizza.id}`)} className="btn btn-primary">
                     Ver detalle
                   </a>
+                  <button className="btn btn-success" onClick={()=>agregarProducto(pizza)}>
+                    Agregar
+                  </button>
                 </div>
               </div>
             </div>
