@@ -13,7 +13,7 @@ const PizzaProvider = ({ children }) => {
  
 
     const getPizzas = async()=>{
-        const response = await fetch("/pizzas.json")
+        const response = await fetch("./pizzas.json")
         const pizzas = await response.json()
         setPizzas(pizzas)
     }
