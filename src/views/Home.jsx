@@ -8,11 +8,11 @@ const Home = () => {
   const navigate = useNavigate()
 
   return (
-    <div className="container border">
+    <div className="container">
       <div className="row">
         {pizzas &&
           pizzas.map((pizza) => (
-            <div key={pizza.id} className="col-md-4 rounded mt-6">
+            <div key={pizza.id} className="col-md-3 rounded p-3">
               <div className="card">
                 <img src={pizza.img} className="card-img-top" alt="..." />
                 <div className="card-body">

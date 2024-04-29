@@ -1,16 +1,13 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  
   
 }
 nav h4{
   color: aliceblue;
 }
 
-.card {
-  padding: 2em;
-}
 
 .banner{
   background-image: url('src/assets/banner.jpeg');

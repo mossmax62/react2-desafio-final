@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { PizzaContext } from "../context/PizzaProvider";
 import { useContext } from "react";
-import './Menu.css'
 
 const Menu = () => {
   const { carrito } = useContext(PizzaContext);
